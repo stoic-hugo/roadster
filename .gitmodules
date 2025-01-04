@@ -1,0 +1,3 @@
+[submodule "exampleSite/themes"]
+	path = exampleSite/themes
+	url = https://github.com/mansoorbarri/mainroad-v2
