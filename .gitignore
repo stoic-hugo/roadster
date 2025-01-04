@@ -17,3 +17,9 @@ Thumbs.db
 .AppleDouble
 .LSOverride
 Desktop.ini
+
+# dev 
+public/
+config.toml
+content/
+.hugo_build.lock
