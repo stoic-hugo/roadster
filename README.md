@@ -6,6 +6,11 @@ A clean, responsive Hugo theme focused on content, forked from the original [Mai
 
 ![screenshot](https://raw.githubusercontent.com/mansoorbarri/mainroad-v2/master/images/screenshot.png)
 
+## Issues fixed from the original theme: 
+- [SVG added to mainmenu via "pre" changes colour depending on sidebar visible or not #388](https://github.com/Vimux/Mainroad/issues/388)
+- [ Lighthouse isn't happy with the contrast of hyperlinks in the footer #385 ](https://github.com/Vimux/Mainroad/issues/385)
+- [ Authorbox relies on [Author] configuration, but it's being deprecated. #382 ](https://github.com/Vimux/Mainroad/issues/382)
+
 ## Features
 
 + Responsive design
