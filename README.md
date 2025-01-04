@@ -43,7 +43,7 @@ For detailed configuration options and examples, please visit the [documentation
 
 ## Contributing
 
-Found a bug or have an idea for a new feature? Feel free to open an [issue](https://github.com/mansoorbarri/mainroad-v2/issues) or submit a [pull request](https://github.com/mansoorbarri/mainroad-v2/pulls).
+Found a bug or have an idea for a new feature? Feel free to open an issue or PR. 
 
 ## License
 
