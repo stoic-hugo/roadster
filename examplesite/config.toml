@@ -21,7 +21,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   mainSections = ["post", "docs"]
 
 [Params.logo]
-  subtitle = "Just another site" # Logo subtitle
+  subtitle = "maintained version of the mainroad theme" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
