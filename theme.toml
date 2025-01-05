@@ -1,7 +1,7 @@
 name = "roadster"
 license = "GPLv2"
 licenselink = "https://github.com/mansoorbarri/roadster/blob/master/LICENSE.md"
-description = "Mainroad is a responsive, clean and content-focused Hugo theme."
+description = "roadster is a responsive, clean and content-focused Hugo theme."
 homepage = "https://github.com/mansoorbarri/roadster/"
 demosite = "https://roadster-hugo.pages.dev//"
 tags = ["blog", "responsive", "light", "multilingual", "customizable", "widgets", "wordpress"]
@@ -14,6 +14,6 @@ min_version = "0.54.0"
 
 # If porting an existing theme
 [original]
-  name = "mainroad"
+  name = "roadster"
   homepage = "https://roadster-hugo.pages.dev/"
   repo = "https://github.com/mansoorbarri/roadster"

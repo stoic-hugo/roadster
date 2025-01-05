@@ -1,6 +1,6 @@
-# Contributing to Mainroad
+# Contributing to roadster
 
-**Mainroad** welcomes contributions and corrections. Before contributing, please make sure you have read the guidelines
+**roadster** welcomes contributions and corrections. Before contributing, please make sure you have read the guidelines
 below. If you're a newcomer to open source and you haven't contributed to other projects or used
 [Git](https://git-scm.com/) before, you should make yourself familiar before proceeding.
 
@@ -122,4 +122,4 @@ to those feedback, otherwise the PR will be closed after 2-4 weeks of inactivity
 
 ## License
 
-By contributing to Mainroad, you agree that your contributions will be licensed under [GPLv2 License](LICENSE.md).
+By contributing to roadster, you agree that your contributions will be licensed under [GPLv2 License](LICENSE.md).
