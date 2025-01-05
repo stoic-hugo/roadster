@@ -28,15 +28,15 @@ A clean, responsive Hugo theme focused on content, forked from the original [Mai
 2. Create a new site and navigate to its root directory
 3. Install the theme:
 ```
-git clone https://github.com/mansoorbarri/roadster.git themes/mainroad
+git clone https://github.com/mansoorbarri/roadster.git themes/roadster
 ```
 Or as a submodule:
 ```
-git submodule add https://github.com/mansoorbarri/roadster.git themes/mainroad
+git submodule add https://github.com/mansoorbarri/roadster.git themes/roadster
 ```
 4. Add to your `config.toml`:
 ```
-theme = "mainroad"
+theme = "roadster"
 ```
 
 For detailed configuration options and examples, please visit the [documentation](https://roadster-hugo.pages.dev//docs/).
