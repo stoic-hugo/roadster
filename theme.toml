@@ -15,5 +15,5 @@ min_version = "0.54.0"
 # If porting an existing theme
 [original]
   name = "mainroad"
-  homepage = "https://mainroad-demo.netlify.app/"
+  homepage = "https://roadster-hugo.pages.dev/"
   repo = "https://github.com/mansoorbarri/roadster"
