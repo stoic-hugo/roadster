@@ -1,10 +1,10 @@
-# Mainroad-v2
+# roadster
 
 A clean, responsive Hugo theme focused on content, forked from the original [Mainroad theme](https://github.com/mansoorbarri/roadster).
 
-**[Demo](https://mainroad-v2.pages.dev)** • **[Documentation](https://mainroad-v2.pages.dev/docs/)**
+**[Demo](https://roadster-hugo.pages.dev/)** • **[Documentation](https://roadster-hugo.pages.dev//docs/)**
 
-![screenshot](https://raw.githubusercontent.com/mansoorbarri/mainroad-v2/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/mansoorbarri/roadster/master/images/screenshot.png)
 
 ## Issues fixed from the original theme: 
 - [SVG added to mainmenu via "pre" changes colour depending on sidebar visible or not #388](https://github.com/mansoorbarri/roadster/issues/388)
@@ -39,7 +39,7 @@ git submodule add https://github.com/mansoorbarri/roadster.git themes/mainroad
 theme = "mainroad"
 ```
 
-For detailed configuration options and examples, please visit the [documentation](https://mainroad-v2.pages.dev/docs/).
+For detailed configuration options and examples, please visit the [documentation](https://roadster-hugo.pages.dev//docs/).
 
 ## Contributing
 
