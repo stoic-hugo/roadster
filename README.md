@@ -1,15 +1,15 @@
 # Mainroad-v2
 
-A clean, responsive Hugo theme focused on content, forked from the original [Mainroad theme](https://github.com/vimux/mainroad).
+A clean, responsive Hugo theme focused on content, forked from the original [Mainroad theme](https://github.com/mansoorbarri/roadster).
 
 **[Demo](https://mainroad-v2.pages.dev)** • **[Documentation](https://mainroad-v2.pages.dev/docs/)**
 
 ![screenshot](https://raw.githubusercontent.com/mansoorbarri/mainroad-v2/master/images/screenshot.png)
 
 ## Issues fixed from the original theme: 
-- [SVG added to mainmenu via "pre" changes colour depending on sidebar visible or not #388](https://github.com/Vimux/Mainroad/issues/388)
-- [ Lighthouse isn't happy with the contrast of hyperlinks in the footer #385 ](https://github.com/Vimux/Mainroad/issues/385)
-- [ Authorbox relies on [Author] configuration, but it's being deprecated. #382 ](https://github.com/Vimux/Mainroad/issues/382)
+- [SVG added to mainmenu via "pre" changes colour depending on sidebar visible or not #388](https://github.com/mansoorbarri/roadster/issues/388)
+- [ Lighthouse isn't happy with the contrast of hyperlinks in the footer #385 ](https://github.com/mansoorbarri/roadster/issues/385)
+- [ Authorbox relies on [Author] configuration, but it's being deprecated. #382 ](https://github.com/mansoorbarri/roadster/issues/382)
 
 ## Features
 
@@ -28,11 +28,11 @@ A clean, responsive Hugo theme focused on content, forked from the original [Mai
 2. Create a new site and navigate to its root directory
 3. Install the theme:
 ```
-git clone https://github.com/mansoorbarri/mainroad-v2.git themes/mainroad
+git clone https://github.com/mansoorbarri/roadster.git themes/mainroad
 ```
 Or as a submodule:
 ```
-git submodule add https://github.com/mansoorbarri/mainroad-v2.git themes/mainroad
+git submodule add https://github.com/mansoorbarri/roadster.git themes/mainroad
 ```
 4. Add to your `config.toml`:
 ```
@@ -47,4 +47,4 @@ Found a bug or have an idea for a new feature? Feel free to open an issue or PR.
 
 ## License
 
-Released under the [GPLv2 license](https://github.com/mansoorbarri/mainroad-v2/blob/master/LICENSE.md).
+Released under the [GPLv2 license](https://github.com/mansoorbarri/roadster/blob/master/LICENSE.md).

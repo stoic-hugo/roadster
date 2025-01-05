@@ -1,8 +1,8 @@
 name = "Mainroad V2"
 license = "GPLv2"
-licenselink = "https://github.com/mansoorbarri/mainroad-v2/blob/master/LICENSE.md"
+licenselink = "https://github.com/mansoorbarri/roadster/blob/master/LICENSE.md"
 description = "Mainroad is a responsive, clean and content-focused Hugo theme."
-homepage = "https://github.com/mansoorbarri/mainroad-v2/"
+homepage = "https://github.com/mansoorbarri/roadster/"
 demosite = "https://mainroad-v2.pages.dev/"
 tags = ["blog", "responsive", "light", "multilingual", "customizable", "widgets", "wordpress"]
 features = ["blog", "responsive", "multilingual", "widgets", "rss", "disqus", "google analytics", "wordpress"]
@@ -16,4 +16,4 @@ min_version = "0.54.0"
 [original]
   name = "mainroad"
   homepage = "https://mainroad-demo.netlify.app/"
-  repo = "https://github.com/Vimux/Mainroad"
+  repo = "https://github.com/mansoorbarri/roadster"
