@@ -1,4 +1,4 @@
-# roadster
+# Roadster
 
 Roadster: A clean, responsive Hugo theme focused on content, forked from the original [mainroad theme](https://github.com/Vimux/Mainroad).
 
