@@ -6,11 +6,6 @@ Roadster: A clean, responsive Hugo theme focused on content, forked from the ori
 
 ![screenshot](https://raw.githubusercontent.com/mansoorbarri/roadster/master/images/screenshot.png)
 
-## Issues fixed from the original theme: 
-- [SVG added to mainmenu via "pre" changes colour depending on sidebar visible or not #388](https://github.com/mansoorbarri/roadster/issues/388)
-- [ Lighthouse isn't happy with the contrast of hyperlinks in the footer #385 ](https://github.com/mansoorbarri/roadster/issues/385)
-- [ Authorbox relies on [Author] configuration, but it's being deprecated. #382 ](https://github.com/mansoorbarri/roadster/issues/382)
-
 ## Features
 
 + Responsive design
