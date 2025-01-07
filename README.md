@@ -1,6 +1,6 @@
 # roadster
 
-roadster: A clean, responsive Hugo theme focused on content, forked from the original [mainroad theme](https://github.com/Vimux/Mainroad).
+Roadster: A clean, responsive Hugo theme focused on content, forked from the original [mainroad theme](https://github.com/Vimux/Mainroad).
 
 **[Demo](https://roadster-hugo.pages.dev/)** • **[Documentation](https://roadster-hugo.pages.dev/docs/)**
 
@@ -24,7 +24,7 @@ roadster: A clean, responsive Hugo theme focused on content, forked from the ori
 
 ## Quick Start
 
-1. Install Hugo following the [official guide](https://gohugo.io/getting-started/quick-start/#step-1-install-hugo)
+1. Install Hugo following the [official guide](https://gohugo.io/installation/)
 2. Create a new site and navigate to its root directory
 3. Install the theme:
 ```
