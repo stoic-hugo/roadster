@@ -69,9 +69,18 @@
 		{{- with .Site.Params.widgets.social.discourse }}
 		<div class="widget-social__item widget__item">
 			<a class="widget-social__link widget__link btn" title="discourse" rel="noopener noreferrer"
-				href="https://bitbucket.org/{{ . }}" target="_blank">
+				href="{{ . }}" target="_blank">
 				{{ partial "svg/discourse.svg" (dict "class" "widget-social__link-icon") }}
 				<span>Discourse</span>
+			</a>
+		</div>
+		{{- end }}
+		{{- with .Site.Params.widgets.social.mastodon }}
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="discourse" rel="noopener noreferrer"
+				href="https://mastodon.social/{{ . }}" target="_blank">
+				{{ partial "svg/mastodon.svg" (dict "class" "widget-social__link-icon") }}
+				<span>Mastodon</span>
 			</a>
 		</div>
 		{{- end }}
@@ -83,7 +92,6 @@
 			</a>
 		</div>
 		{{- end }}
-
 
 		{{ range .Site.Params.widgets.social.custom }}
 		<div class="widget-social__item widget__item">
