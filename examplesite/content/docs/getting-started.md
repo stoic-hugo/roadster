@@ -38,7 +38,7 @@ If you don't plan to make significant changes to the theme but still want to tra
 your Hugo site:
 
 ```sh
-git submodule add https://github.com/mansoorbarri/Roadster-v2.git themes/roadster
+git submodule add https://github.com/mansoorbarri/Roadster.git themes/roadster
 ```
 
 **Note:**
@@ -52,13 +52,13 @@ instead of git clone.
 Run this [git clone](https://git-scm.com/docs/git-clone) command from the root of your Hugo site:
 
 ```sh
-git clone https://github.com/mansoorbarri/Roadster-v2.git themes/roadster
+git clone https://github.com/mansoorbarri/Roadster.git themes/roadster
 ```
 
 ### Option C: Manual install
 
 If you do not want to use git, you can manually
-**[download ZIP](https://github.com/mansoorbarri/Roadster-v2/archive/master.zip)** and extract it into the `themes/roadster`
+**[download ZIP](https://github.com/mansoorbarri/Roadster/archive/master.zip)** and extract it into the `themes/roadster`
 within your Hugo site.
 
 ---
@@ -75,12 +75,12 @@ To check it out, build the site via `hugo` command or make it available on a loc
 
 ## Minimal configuration
 
-**Do not copy the [example config](https://github.com/mansoorbarri/Roadster-v2#configtoml-example) as-is.**
+**Do not copy the [example config](https://github.com/mansoorbarri/Roadster#configtoml-example) as-is.**
 Use only the parameters that you need. The Roadster theme contains required defaults, so you don't need to add all of
 the configuration parameters to run the theme for the first time. Before adding any theme-specific parameters, make
 sure to edit the `theme` param inside the config file and check that the theme works.
 
 For information about common customization settings, see [Customization page]({{< relref "/docs/customization.md" >}} "Roadster theme customization").
-To view our example configuration, visit [demo config](https://github.com/mansoorbarri/Roadster-v2/blob/master/exampleSite/config.toml).
+To view our example configuration, visit [demo config](https://github.com/mansoorbarri/Roadster/blob/master/exampleSite/config.toml).
 
-[Edit this page on GitHub](https://github.com/mansoorbarri/Roadster-v2/blob/master/exampleSite/content/docs/getting-started.md)
+[Edit this page on GitHub](https://github.com/mansoorbarri/Roadster/blob/master/exampleSite/content/docs/getting-started.md)

@@ -2,7 +2,7 @@
 
 roadster: A clean, responsive Hugo theme focused on content, forked from the original [mainroad theme](https://github.com/Vimux/Mainroad).
 
-**[Demo](https://roadster-hugo.pages.dev/)** • **[Documentation](https://roadster-hugo.pages.dev//docs/)**
+**[Demo](https://roadster-hugo.pages.dev/)** • **[Documentation](https://roadster-hugo.pages.dev/docs/)**
 
 ![screenshot](https://raw.githubusercontent.com/mansoorbarri/roadster/master/images/screenshot.png)
 
@@ -39,7 +39,7 @@ git submodule add https://github.com/mansoorbarri/roadster.git themes/roadster
 theme = "roadster"
 ```
 
-For detailed configuration options and examples, please visit the [documentation](https://roadster-hugo.pages.dev//docs/).
+For detailed configuration options and examples, please visit the [documentation](https://roadster-hugo.pages.dev/docs/).
 
 ## Contributing
 

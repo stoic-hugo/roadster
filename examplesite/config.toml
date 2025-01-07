@@ -1,4 +1,4 @@
-baseurl = "https://mainroad-v2.pages.dev"
+baseurl = "https://roadster.pages.dev"
 title = "roadster"
 languageCode = "en-us"
 pagination.pagerSize = "10" # Number of posts per page
