@@ -185,7 +185,7 @@ sections in the example below.
   bitbucket = "username"
   email = "example@example.com"
   discourse = "username"
-  mastodon = "username
+  mastodon = "username"
 ```
 
 ### Widget caching
