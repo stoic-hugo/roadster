@@ -81,6 +81,6 @@ the configuration parameters to run the theme for the first time. Before adding 
 sure to edit the `theme` param inside the config file and check that the theme works.
 
 For information about common customization settings, see [Customization page]({{< relref "/docs/customization.md" >}} "Roadster theme customization").
-To view our example configuration, visit [demo config](https://github.com/mansoorbarri/Roadster/blob/master/exampleSite/config.toml).
+To view our example configuration, visit [demo config](https://github.com/mansoorbarri/Roadster/blob/master/examplesite/config.toml).
 
-[Edit this page on GitHub](https://github.com/mansoorbarri/Roadster/blob/master/exampleSite/content/docs/getting-started.md)
+[Edit this page on GitHub](https://github.com/mansoorbarri/Roadster/blob/master/examplesite/content/docs/getting-started.md)
