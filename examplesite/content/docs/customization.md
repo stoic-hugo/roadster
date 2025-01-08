@@ -26,7 +26,7 @@ and more.
 
 ### Configuration Example
 ```toml
-baseurl = "/"
+baseurl = "https://example.com"
 title = "Roadster"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
