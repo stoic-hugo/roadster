@@ -326,6 +326,7 @@ sections in the example below.
   email = "example@example.com"
   discourse = "username"
   mastodon = "username"
+  bluesky = "username"
 ```
 
 ### Widget caching
