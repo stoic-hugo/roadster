@@ -42,7 +42,7 @@ Hugo is not required (but applicable).
 
 * See [All Configuration Settings](https://gohugo.io/getting-started/configuration/#all-configuration-settings)
 for the full list of Hugo-defined variables with their default values.
-* See [Roadster config.toml example](https://github.com/mansoorbarri/Roadster#configtoml-example) for the full list of
+* See [Roadster config.toml example](http://localhost:1313/docs/customization/#configuration-example) for the full list of
 Roadster-specific variables.
 
 **Front Matter:**
