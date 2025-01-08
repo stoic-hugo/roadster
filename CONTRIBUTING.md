@@ -1,13 +1,10 @@
 # Contributing to roadster
 
-**roadster** welcomes contributions and corrections. Before contributing, please make sure you have read the guidelines
-below. If you're a newcomer to open source and you haven't contributed to other projects or used
-[Git](https://git-scm.com/) before, you should make yourself familiar before proceeding.
+**Roadster** welcomes contributions and corrections. Before contributing, please make sure you have read the guidelines below. If you're a newcomer to open source and you haven't contributed to other projects or used [Git](https://git-scm.com/) before, you should make yourself familiar before proceeding.
 
 ## Issues
 
-The [issue tracker](https://github.com/mansoorbarri/roadster/issues) is the preferred channel for bug reports and features
-requests, but please respect the following restrictions:
+The [issue tracker](https://github.com/mansoorbarri/roadster/issues) is the preferred channel for bug reports and features requests, but please respect the following restrictions:
 
 ### General requirements
 
@@ -15,20 +12,15 @@ requests, but please respect the following restrictions:
 * Please **do not** combine a few problems or feature requests in one issue. Create separate issues if needed.
 * Please **do not** create an issue that contains only title. Write a clear title and useful description.
 * Please **do not** use the issue tracker for personal support requests.
-* Please **do not** post comments consisting solely of "+1" or emoji. The project maintainer reserve the right to delete
-such comments. Use
-[GitHub's reactions feature](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments) instead.
-* Search first before filing a new issue. Please check existing open or recently closed issues to make sure somebody
-else hasn't already reported the issue.
+* Please **do not** post comments consisting solely of "+1" or emoji. The project maintainer reserve the right to delete such comments. Use [GitHub's reactions feature](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments) instead.
+* Search first before filing a new issue. Please check existing open or recently closed issues to make sure somebody else hasn't already reported the issue.
 
 ### Reporting bugs
 
 When creating a new bug issue make sure to include the following information:
 
-* Your environment e.g. OS version, Hugo version, theme is up to date? Anything unusual about your environment or
-deployment.
-* Specify the exact steps to reproduce the bug in as many details as possible with code examples. Include links to files
-or demo projects, or copy/pasteable snippets, which you use in those examples.
+* Your environment e.g. OS version, Hugo version, theme is up to date? Anything unusual about your environment or deployment.
+* Specify the exact steps to reproduce the bug in as many details as possible with code examples. Include links to files or demo projects, or copy/pasteable snippets, which you use in those examples.
 * Any message or error you get from Hugo, if you do.
 * A screenshot of any visual bug.
 
@@ -52,25 +44,19 @@ Please, take in consideration the next template to report your bug:
 > **Additional info**\
 > _Anything unusual about your environment or deployment process? Anything else do we need to know? Optional._
 
-**Note:** If you find a **Closed** issue that seems like it is the same bug that you're experiencing, open a new issue
-and include a link to the original issue in the body of your new one.
+**Note:** If you find a **Closed** issue that seems like it is the same bug that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 ### Proposing features
 
-* Explain the proposed feature, what it should do, why it is useful, and alternatives considered if possible. Please
-note that the project maintainer may close this issue or ask you to create a Pull Request if this is not something that
-the project maintainer sees as a sufficiently high priority.
+* Explain the proposed feature, what it should do, why it is useful, and alternatives considered if possible. Please note that the project maintainer may close this issue or ask you to create a Pull Request if this is not something that the project maintainer sees as a sufficiently high priority.
 
 Following these guidelines helps maintainer and the community understand your suggestion and find related suggestions.
 
 ## Pull Requests (PR)
 
-**Please ask first** before embarking on any significant pull request (e.g. implementing features or refactoring code),
-otherwise, you risk spending a lot of time working on something that the project maintainer might not want to merge into
-the project.
+**Please ask first** before embarking on any significant pull request (e.g. implementing features or refactoring code), otherwise, you risk spending a lot of time working on something that the project maintainer might not want to merge into the project.
 
-Please respect our Pull Request Acceptance Criteria. For larger changes, you will likely receive multiple rounds of
-comments and it may take some time to complete.
+Please respect our Pull Request Acceptance Criteria. For larger changes, you will likely receive multiple rounds of comments and it may take some time to complete.
 
 ### Pull Request Acceptance Criteria
 
@@ -91,16 +77,13 @@ comments and it may take some time to complete.
   * Not contain any JS or CSS section inside it
   * Not contain any additional transformations (matrix, translate, scale) or negative viewBox position values
   * Сompatible with [GPLv2 License](LICENSE.md)
-* Maintain clean commit history and use meaningful commit messages. Pull Requests with messy commit history (with
-commit messages like "update", "another update", etc) are difficult to review and won't be merged, even if the changes
-are good enough
-* Be prepared to answer questions and make code changes. The project maintainer expect you to be reasonably responsive
-to those feedback, otherwise the PR will be closed after 2-4 weeks of inactivity
+* Maintain clean commit history and use meaningful commit messages. Pull Requests with messy commit history (with commit messages like "update", "another update", etc) are difficult to review and won't be merged, even if the changes are good enough
+* Be prepared to answer questions and make code changes. The project maintainer expect you to be reasonably responsive to those feedback, otherwise the PR will be closed after 2-4 weeks of inactivity
 
 ### Pull Request Contribution Prerequisites
 
 * You have Node & npm installed
-* You have Hugo installed at v0.54.0+
+* You have Hugo installed at v0.128.0+
 * You are familiar with Git
 
 ### Pull Request Process
