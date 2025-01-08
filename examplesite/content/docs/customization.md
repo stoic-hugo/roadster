@@ -26,23 +26,27 @@ and more.
 
 ### Configuration Example
 ```toml
-baseurl = "https://example.com"
-title = "Roadster"
+baseurl = "https://roadster.pages.dev"
+title = "roadster"
 languageCode = "en-us"
-paginate = "10" # Number of posts per page
-theme = "roadster"
-disqusShortname = "" # DEPRECATED! Use .Services.Disqus.Shortname
-googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID
+# paginate = "10" # DEPRECATED! Use pagination.pagerSize below
+theme = "roadster" 
+# disqusShortname = "" # DEPRECATED! Use .Services.Disqus.Shortname below
+# googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID below
 
-[services.disqus]
-  shortname = "" # Enable Disqus by entering your Disqus shortname
-[services.googleAnalytics]
-  ID = "" # Enable Google Analytics by entering your tracking ID
+# Configure Pagination. See https://gohugo.io/templates/pagination/#configuration
+[pagination]
+  pagerSize = 10 # (int) The number of pages per pager. Default is 10
 
-[Author] # Used in authorbox
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "img/avatar.png"
+[services]
+  [services.googleAnalytics]
+    id = 'G-MEASUREMENT_ID'  # Enable Google Analytics by entering your tracking id
+  [services.disqus]
+    shortname = 'your-disqus-shortname' # Enable Disqus by entering your Disqus shortname
+
+# Goldmark renders raw HTML mixed within the Markdown
+[markup.goldmark.renderer]
+  unsafe = true # N.B. This is unsafe unless the content is under your control.  Set to false if you don't mix HTML with markdown.
 
 [Params]
   description = "John Doe's Personal blog about everything" # Site description. Used in meta description
@@ -63,6 +67,11 @@ googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = ["css/custom.css"] # Include custom CSS files
   customJS = ["js/custom.js"] # Include custom JS files
+
+[params.author]
+  name = "John Doe"
+  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  avatar = "img/avatar.png"
 
   # DEPRECATED PARAMS
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
