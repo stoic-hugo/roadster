@@ -245,10 +245,12 @@ via config, use the key `visibility` with combination of valid values `"list"` a
 Besides global configuration, you can change thumbnail visibility individually with extended thumbnail notation via
 front matter block.
 
-```toml
-[thumbnail]
-  src = "img/placeholder.png"
-  visibility = ["list", "post"]
+```yaml
+thumbnail:
+  src: "img/placeholder.png"
+  visibility:
+    - list
+    - post
 ```
 
 This page is an example of list-only thumbnail visibility.
@@ -269,8 +271,8 @@ and single pages individually. Use the keys `home`, `list` and `single` with val
 The layout can be configured per page, by setting the `sidebar` parameter with one of the same values (`"left"`,
 `"right"` or `false`) in the page's front matter.
 
-```toml
-sidebar =  "left" # Enable sidebar (on the left side) per page
+```yaml
+sidebar: "left" # Enable sidebar (on the left side) per page
 ```
 
 The sidebar consists of multiple widgets. Widgets can be enabled individually using the `widgets` key with a list of
