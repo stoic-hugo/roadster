@@ -3,7 +3,7 @@ title: Getting started
 description: This article helps you get started with the Roaster theme, including installation and minimal
   configuration.
 lead: This article helps you get started with the Roadster theme, including installation and minimal configuration.
-date: 2025-01-08T14:00:00.000Z
+date: 2025-01-08
 tags:
   - "Installation"
 authorbox: false
