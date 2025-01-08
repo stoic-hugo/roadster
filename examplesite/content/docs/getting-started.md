@@ -3,7 +3,7 @@ title: Getting started
 description: This article helps you get started with the Roaster theme, including installation and minimal
   configuration.
 lead: This article helps you get started with the Roadster theme, including installation and minimal configuration.
-date: 2022-01-24T14:00:00.000Z
+date: 2025-01-08T14:00:00.000Z
 tags:
   - "Installation"
 authorbox: false
@@ -68,14 +68,14 @@ within your Hugo site.
 Whichever installation option you choose, don't forget to edit `theme` param of the site configuration `config.toml`:
 
 ```toml
-theme = "Roadster"
+theme = "roadster"
 ```
 
 To check it out, build the site via `hugo` command or make it available on a local server via `hugo server`.
 
 ## Minimal configuration
 
-**Do not copy the [example config](https://github.com/mansoorbarri/Roadster#configtoml-example) as-is.**
+**Do not copy the [example config](https://roadster-hugo.pages.dev/docs/customization/#configuration-example) as-is.**
 Use only the parameters that you need. The Roadster theme contains required defaults, so you don't need to add all of
 the configuration parameters to run the theme for the first time. Before adding any theme-specific parameters, make
 sure to edit the `theme` param inside the config file and check that the theme works.
