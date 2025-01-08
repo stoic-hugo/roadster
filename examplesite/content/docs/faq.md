@@ -42,7 +42,7 @@ Hugo is not required (but applicable).
 
 * See [All Configuration Settings](https://gohugo.io/getting-started/configuration/#all-configuration-settings)
 for the full list of Hugo-defined variables with their default values.
-* See [Roadster config.toml example](https://github.com/mansoorbarri/Roadster#configtoml-example) for the full list of
+* See [Roadster config.toml example](http://localhost:1313/docs/customization/#configuration-example) for the full list of
 Roadster-specific variables.
 
 **Front Matter:**
@@ -54,14 +54,22 @@ Roadster-specific Front Matter variables.
 
 ### What if I have more questions? Should I create an issue?
 
-**We don't provide personal technical support.** As stated in our
-[contributing guidelines](https://github.com/mansoorbarri/Roadster/blob/master/CONTRIBUTING.md), please do not use the issue
-tracker for personal support. This includes reports like: “How do I do this", “Everything is broken; help me”, “I
-changed something, and it doesn't work anymore”, “It's not a personal issue, but I just want to ask how X or Y works”,
-“I forked your theme, then something broke; fix this immediately”, and so on.
+For general questions, feature requests, or usage help, we encourage you to start a discussion in our community Discussions tab first. Issues should be reserved for bug reports and technical problems with the theme.
 
-**The issue tracker should only be used for bug reports, feature requests, and discussions that comply with our
-contributing rules**. All other issues will be closed and marked as invalid.
+Here's where to go:
+- Use [Discussions](https://github.com/mansoorbarri/roadster/discussions) for:
+  - Questions about theme configuration
+  - Feature requests and suggestions
+  - Showcasing your site
+  - Getting help with customization
+  - General usage questions
+
+- Create an [Issue](https://github.com/mansoorbarri/roadster/issues) only for:
+  - Reporting bugs
+  - Technical problems with theme functionality
+  - Documentation errors
+
+This helps keep our Issues focused on technical problems while building a helpful knowledge base in Discussions for future users.
 
 ## Technical questions
 
