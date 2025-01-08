@@ -84,6 +84,15 @@
 			</a>
 		</div>
 		{{- end }}
+		{{- with .Site.Params.widgets.social.bluesky }}
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="BlueSky" rel="noopener noreferrer"
+				href="https://bsky.app/profile/{{ . }}" target="_blank">
+				{{ partial "svg/bluesky.svg" (dict "class" "widget-social__link-icon") }}
+				<span>BlueSky</span>
+			</a>
+		</div>
+		{{- end }}
 		{{- with .Site.Params.widgets.social.email }}
 		<div class="widget-social__item widget__item">
 			<a class="widget-social__link widget__link btn" title="Email" href="mailto:{{ . }}">
