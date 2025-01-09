@@ -2,7 +2,7 @@ baseurl = "https://roadster.pages.dev"
 title = "roadster"
 languageCode = "en-us"
 # paginate = "10" # DEPRECATED! Use pagination.pagerSize below
-theme = "roadster" 
+theme = "roadster"
 # disqusShortname = "" # DEPRECATED! Use .Services.Disqus.Shortname below
 # googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID below
 
@@ -36,7 +36,7 @@ theme = "roadster"
   avatar = "img/avatar.png"
 
 [Params.logo]
-  subtitle = "maintained version of the mainroad theme" # Logo subtitle
+  subtitle = "Streamlined design, enhanced functionality" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
