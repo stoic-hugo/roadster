@@ -29,6 +29,7 @@ theme = "roadster"
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
   mainSections = ["post", "docs"]
+  CustomHeadHTML = "" # Add custom HTML in the <head> 
 
 [params.author]
   name = "John Doe"

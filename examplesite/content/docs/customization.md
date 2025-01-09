@@ -67,6 +67,7 @@ theme = "roadster"
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = ["css/custom.css"] # Include custom CSS files
   customJS = ["js/custom.js"] # Include custom JS files
+  CustomHeadHTML = "" # Add custom code in <head>
 
 [params.author]
   name = "John Doe"
