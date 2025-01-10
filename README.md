@@ -16,6 +16,7 @@ Roadster: A clean, responsive Hugo theme focused on content, forked from the ori
 + Table of Contents, MathJax support, SVG icons
 + Custom Google Fonts support
 + Wide cross-browser compatibility
++ Multiple Authors
 
 ## Quick Start
 
