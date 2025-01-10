@@ -68,6 +68,7 @@ theme = "roadster"
   customCSS = ["css/custom.css"] # Include custom CSS files
   customJS = ["js/custom.js"] # Include custom JS files
   CustomHeadHTML = "" # Add custom code in <head>
+  pagerSizeIndex = 2 # (int) The number of articles per pager. Default is 5
 
 [params.author]
   name = "John Doe"
