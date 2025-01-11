@@ -242,6 +242,68 @@ You can also use a predefined layout, like `:date_full`, and it will output loca
 information about localized dates and possible date/time formatting layouts, please see
 [Hugo: time.Format](https://gohugo.io/functions/dateformat/).
 
+### Multi-Author Support
+#### Adding Multiple Authors to a Post
+To attribute a post to multiple authors, add an `authors` array to the frontmatter of the post. For example:
+```
+---
+title: "Example Blog Post"
+date: 2024-01-15
+authors: ["rsmith", "jdoe"]
+---
+```
+Each author identifier (e.g. `rsmith`, `jdoe`) should correspond to an unique author profile. If no additional information is provided for the author, the system will automatically generate a basic author page that lists all posts by that author.
+
+#### Creating Author Pages
+You can create custom author pages to include additional details about each author, such as a photo, contact information, and links to social profiles.
+
+**File Structure**
+Author pages should be placed in the `/content/authors/` directory. For example:
+```
+content/
+└── authors/
+    ├── rsmith/
+    │   └── _index.md
+    └── jdoe/
+        └── _index.md
+```
+**Frontmatter for Author Pages**  
+The frontmatter for an author page supports detailed customization. Here is an example:
+```
+---
+title: "Robert Smith"
+date: 2024-03-19T17:35:59.000Z
+draft: false
+siteAuthor: false
+params:
+  name:
+    first: "Robert"
+    last: "Smith"
+    prefix: "Dr."
+  contact:
+    email: "rsmith@example.org"
+    phone: "+1 202-555-1213"
+  social:
+    - service: "GitHub"
+      link: "https://github.com/rsmith"
+    - service: "Facebook"
+      link: "https://www.facebook.com/rsmith"
+---
+
+This page provides information about Robert Smith and includes a list of blog posts written by him.
+```
+**Explanation of Fields**
+
+    `title`: The display name of the author (used in titles and headings).
+    `params.name`: Allows you to specify the author's full name with optional prefixes like "Dr." or "Prof."
+    `params.contact`: Contact information, such as email and phone number.
+    `params.social`: A list of social media services and corresponding profile links. Expandable as long as the SVG file for the service exists in `layouts/partials/svg/`, named after the service (e.g., `github.svg`).
+
+#### Default Author Pages
+If an author page is not explicitly created, the system will generate a default page for that author, listing all posts attributed to their identifier without additional profile details.
+
+`Important`: Creating a custom author page is optional. Only create one if you need to include detailed information, such as a profile picture, biography, or social links.
+
 ### Thumbnail visibility
 
 By default, a thumbnail image has shown for a list and single pages simultaneously. In some cases, you may want to show
