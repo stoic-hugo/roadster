@@ -162,7 +162,7 @@ thumbnail: "img/placeholder.png" # Thumbnail image
 lead: "Example lead - highlighted near the title" # Lead text
 comments: false # Enable Disqus comments for specific page
 authorbox: true # Enable authorbox for specific page
-authors: ["exampleauthor"] # Assuming you have a author profile in /content/authors/exampleauthor.md
+authors: ["exampleauthor"] # Assuming you have a author profile in /content/authors/exampleauthor/_index.md
 pager: true # Enable pager navigation (prev/next) for specific page
 toc: true # Enable Table of Contents for specific page
 mathjax: true # Enable MathJax for specific page
