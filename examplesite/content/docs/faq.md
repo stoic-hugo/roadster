@@ -137,4 +137,4 @@ required.
 Google PSE (CSE) should work when it's done. Look and feel will be far from perfect, but you have to solve this problem
 with [Google PSE Control Panel](https://programmablesearchengine.google.com/controlpanel/all) and additional CSS.
 
-[Edit this page on GitHub](https://github.com/mansoorbarri/Roadster/blob/master/exampleSite/content/docs/faq.md)
+[Edit this page on GitHub](https://github.com/mansoorbarri/roadster/blob/master/exampleSite/content/docs/faq.md)
