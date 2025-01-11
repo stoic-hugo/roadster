@@ -619,4 +619,4 @@ It is possible to disable Google Fonts and use system font stack instead.
       fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
     ```
 
-[Edit this page on GitHub](https://github.com/mansoorbarri/Roadster/blob/master/exampleSite/content/docs/customization.md)
+[Edit this page on GitHub](https://github.com/mansoorbarri/roadster/blob/master/exampleSite/content/docs/customization.md)
