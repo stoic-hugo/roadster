@@ -68,4 +68,4 @@ To check it out, build the site via `hugo` command or make it available on a loc
 
 For information about common customization settings, see [Customization page]({{< relref "/docs/customization.md" >}} "Roadster theme customization"). To view our example configuration, visit [demo config](https://github.com/mansoorbarri/Roadster/blob/master/examplesite/config.toml).
 
-[Edit this page on GitHub](https://github.com/mansoorbarri/Roadster/blob/master/examplesite/content/docs/getting-started.md)
+[Edit this page on GitHub](https://github.com/mansoorbarri/roadster/blob/master/examplesite/content/docs/getting-started.md)
